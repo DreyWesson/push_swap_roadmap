@@ -1,3 +1,5 @@
+So, I am rewriting this article because the one I wrote earlier was sorta confusing and to give it more clarity I have decided to take another approach to help your thought process, without taking away the beauty of figuring it out. Therefore, this is not a code along but more of a roadmap for your thought process. By the time youre done reading youll have a great idea of the intricacies and what to watchout for when coming up with your own algorithm. Below is an incomplete roadmap of possible function and what they do.
+
 Mandatory/
 └── main/
     ├── validator/
@@ -373,7 +375,7 @@ Assume, 14 is the exiting_node. so since you are rotating the two stacks in the 
 ####################################################################
 highest_priority /
 └── highest_helper
-Here, we want to know which exiting node has the highest priority. Here we can initialise a variable(max) to int_max value. Then we loop through stack_b and compare priority the node with the highest priority is saved on every loop and returned at the end of the loop. So, for every loop we check current node priority is greater than current highest_priority and save the ne highest prioritized node and also change the value of the initialized variable(max)
+Here, we want to know which exiting node has the highest priority. Here we can initialise a variable(max) to INT_MAX value. Then we loop through stack_b and compare priority of the node with the highest priority saved on every loop and then at the end of the whole loop we return the highest_priority. So, for every loop we check current node priority is greater than current highest_priority and save the ne highest prioritized node and also change the value of the initialized variable(max)
 
 double_opportunity /
 └── 
